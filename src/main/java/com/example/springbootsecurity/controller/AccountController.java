@@ -13,12 +13,13 @@ import javax.validation.Valid;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/api")
+@RequestMapping("/api/account")
 public class AccountController {
 
     private final AccountServiceImpl accountService;
 
-    @RequestMapping(method = RequestMethod.POST, path = "/account")
+//    @RequestMapping(method = RequestMethod.POST, path = "/account")
+    @PostMapping("")
     public ResponseEntity<?> insertAccount(
             @Valid @RequestBody AccountFormDTO dto,
             BindingResult bindingResult
@@ -32,9 +33,9 @@ public class AccountController {
         return new ResponseEntity<>(accountDB, HttpStatus.CREATED);
     }
 
-    @GetMapping("/test")
-    public String test() {
-        return "get";
+    @GetMapping("")
+    public ResponseEntity<?> viewAccount() {
+        return new ResponseEntity<>("Success!", HttpStatus.OK);
     }
 
 }
