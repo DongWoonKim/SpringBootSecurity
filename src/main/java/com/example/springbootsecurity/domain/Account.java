@@ -12,6 +12,7 @@ import javax.persistence.*;
 @Table
 @Entity
 @Getter
+// JPA에서는 프록시를 생성을 위해서 기본 생성자를 반드시 하나를 생성해야합니다.
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class Account extends BaseEntity {
 

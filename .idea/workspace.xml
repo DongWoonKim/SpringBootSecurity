@@ -5,36 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="614ca2e2-6a1b-460e-9994-cbfaf8c3c65f" name="Changes" comment="second commit">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_auth0_java_jwt_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/dto/AccountDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/dto/TokenDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/security/common/FilterSkipMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/security/filter/JwtAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/security/handler/FormLoginAuthenticationFailureHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/security/handler/FormLoginAuthenticationSuccessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/security/jwt/HeaderTokenExtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/security/jwt/JwtDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/security/jwt/JwtFactroy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/security/provider/FormLoginAuthenticationProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/security/provider/JWTAuthenticationProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/security/token/JwtPreProcessingToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/security/token/PostAuthorizationToken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootsecurity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springbootsecurity.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/SpringbootSecurityApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/SpringbootSecurityApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/constant/EnumMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/constant/EnumMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/constant/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/constant/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/controller/EnumController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/controller/EnumController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/domain/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/domain/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/dto/EnumValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/constant/EnumValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/security/filter/FormLoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/security/filter/FormLoginFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/service/account/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/service/account/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/service/account/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/service/account/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/security/provider/FormLoginAuthenticationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootsecurity/security/provider/FormLoginAuthenticationProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/springbootsecurity/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springbootsecurity/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springbootsecurity/controller/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springbootsecurity/controller/AccountController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springbootsecurity/constant/UserRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springbootsecurity/constant/UserRole.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/springbootsecurity/controller/EnumController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springbootsecurity/controller/EnumController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springbootsecurity/security/filter/FormLoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springbootsecurity/security/filter/FormLoginFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springbootsecurity/service/account/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springbootsecurity/service/account/AccountService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springbootsecurity/service/account/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springbootsecurity/service/account/AccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springbootsecurity/domain/Account$AccountBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springbootsecurity/domain/Account$AccountBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springbootsecurity/domain/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springbootsecurity/domain/Account.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +132,8 @@
       <updated>1636537302945</updated>
       <workItem from="1636537304865" duration="15722000" />
       <workItem from="1636555666145" duration="1082000" />
-      <workItem from="1636594949842" duration="10250000" />
+      <workItem from="1636594949842" duration="10741000" />
+      <workItem from="1636688982232" duration="14168000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1636555947012</created>

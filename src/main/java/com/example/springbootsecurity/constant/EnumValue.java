@@ -1,4 +1,4 @@
-package com.example.springbootsecurity.dto;
+package com.example.springbootsecurity.constant;
 
 import com.example.springbootsecurity.constant.EnumModel;
 

@@ -1,7 +1,5 @@
 package com.example.springbootsecurity.constant;
 
-import com.example.springbootsecurity.dto.EnumValue;
-
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;

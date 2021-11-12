@@ -2,7 +2,7 @@ package com.example.springbootsecurity.controller;
 
 import com.example.springbootsecurity.constant.EnumMapper;
 import com.example.springbootsecurity.constant.UserRole;
-import com.example.springbootsecurity.dto.EnumValue;
+import com.example.springbootsecurity.constant.EnumValue;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
